@@ -1,7 +1,6 @@
 /*
   The common styles
 */
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;900&display=swap');
 
 @mixin mode-toggle($dark-mode: false) {
   @if $dark-mode {
@@ -50,7 +49,7 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Manrope', 'Microsoft Yahei', sans-serif;
 }
 
 /* --- Typography --- */
@@ -1681,4 +1680,50 @@ $sidebar-display: "sidebar-display";
   #panel-wrapper {
     margin-left: 41px;
   }
+}
+
+// Fonts Hell
+
+// Space Grotesk
+@font-face {
+    font-family: SpaceGrotesk;
+    font-weight: normal;
+    src: url(../assets/fonts/SpaceGrotesk/ttf/static/SpaceGrotesk-Regular.ttf)
+}
+
+@font-face {
+    font-family: SpaceGrotesk;
+    font-weight: thin;
+    src: url(../assets/fonts/SpaceGrotesk/ttf/static/SpaceGrotesk-Light.ttf)
+}
+
+@font-face {
+    font-family: SpaceGrotesk;
+    font-weight: bold;
+    src: url(../assets/fonts/SpaceGrotesk/ttf/static/SpaceGrotesk-Bold.ttf)
+}
+
+@font-face {
+    font-family: SpaceGrotesk;
+    font-weight: medium;
+    src: url(../assets/fonts/SpaceGrotesk/ttf/static/SpaceGrotesk-Medium.ttf)
+}
+
+// Manrope Text
+@font-face {
+    font-family: Manrope;
+    font-weight: normal;
+    src: url(../assets/fonts/manrope/manrope-regular.ttf)
+}
+
+@font-face {
+    font-family: Manrope;
+    font-weight: bold;
+    src: url(../assets/fonts/manrope/manrope-bold.ttf)
+}
+
+@font-face {
+    font-family: Manrope;
+    font-weight: thin;
+    src: url(../assets/fonts/manrope/manrope-light.ttf)
 }
