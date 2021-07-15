@@ -2,6 +2,52 @@
   The common styles
 */
 
+// Fonts Hell
+
+// Space Grotesk
+@font-face {
+    font-family: SpaceGrotesk;
+    font-weight: normal;
+    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Regular.ttf)
+}
+
+@font-face {
+    font-family: SpaceGrotesk;
+    font-weight: thin;
+    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Light.ttf)
+}
+
+@font-face {
+    font-family: SpaceGrotesk;
+    font-weight: bold;
+    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Bold.ttf)
+}
+
+@font-face {
+    font-family: SpaceGrotesk;
+    font-weight: medium;
+    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Medium.ttf)
+}
+
+// Manrope Text
+@font-face {
+    font-family: Manrope;
+    font-weight: normal;
+    src: url(../assets/fonts/manrope/manrope-regular.ttf)
+}
+
+@font-face {
+    font-family: Manrope;
+    font-weight: bold;
+    src: url(../assets/fonts/manrope/manrope-bold.ttf)
+}
+
+@font-face {
+    font-family: Manrope;
+    font-weight: thin;
+    src: url(../assets/fonts/manrope/manrope-light.ttf)
+}
+
 @mixin mode-toggle($dark-mode: false) {
   @if $dark-mode {
     @include dark-scheme;
@@ -1682,48 +1728,4 @@ $sidebar-display: "sidebar-display";
   }
 }
 
-// Fonts Hell
 
-// Space Grotesk
-@font-face {
-    font-family: SpaceGrotesk;
-    font-weight: normal;
-    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Regular.ttf)
-}
-
-@font-face {
-    font-family: SpaceGrotesk;
-    font-weight: thin;
-    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Light.ttf)
-}
-
-@font-face {
-    font-family: SpaceGrotesk;
-    font-weight: bold;
-    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Bold.ttf)
-}
-
-@font-face {
-    font-family: SpaceGrotesk;
-    font-weight: medium;
-    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Medium.ttf)
-}
-
-// Manrope Text
-@font-face {
-    font-family: Manrope;
-    font-weight: normal;
-    src: url(../assets/fonts/manrope/manrope-regular.ttf)
-}
-
-@font-face {
-    font-family: Manrope;
-    font-weight: bold;
-    src: url(../assets/fonts/manrope/manrope-bold.ttf)
-}
-
-@font-face {
-    font-family: Manrope;
-    font-weight: thin;
-    src: url(../assets/fonts/manrope/manrope-light.ttf)
-}
