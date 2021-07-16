@@ -2,6 +2,50 @@
   The common styles
 */
 
+// Space Grotesk
+@font-face {
+    font-family: 'Space Grotesk';
+    font-weight: normal;
+    src: url("/fonts/SpaceGrotesk/SpaceGrotesk-Regular.ttf") format ("truetype");
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    font-weight: thin;
+    src: url("/fonts/SpaceGrotesk/SpaceGrotesk-Light.ttf") format ("truetype");
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    font-weight: bold;
+    src: url("/fonts/SpaceGrotesk/SpaceGrotesk-Bold.ttf") format ("truetype");
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    font-weight: medium;
+    src: url("/fonts/SpaceGrotesk/SpaceGrotesk-Medium.ttf") format ("truetype");
+}
+
+// Manrope Text
+@font-face {
+    font-family: 'Manrope';
+    font-weight: normal;
+    src: url("/fonts/manrope/manrope-regular.ttf") format ("truetype");
+}
+
+@font-face {
+    font-family: 'Manrope';
+    font-weight: bold;
+    src: url("/fonts/manrope/manrope-bold.ttf") format ("truetype");
+}
+
+@font-face {
+    font-family: 'Manrope';
+    font-weight: thin;
+    src: url("/fonts/manrope/manrope-light.ttf") format ("truetype");
+}
+
 @mixin mode-toggle($dark-mode: false) {
   @if $dark-mode {
     @include dark-scheme;
