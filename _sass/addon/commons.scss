@@ -8,44 +8,44 @@
 @font-face {
     font-family: 'Space Grotesk';
     font-weight: normal;
-    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Regular.ttf) format ("ttf");
+    src: url("/assets/fonts/SpaceGrotesk/SpaceGrotesk-Regular.ttf") format ("ttf");
 }
 
 @font-face {
     font-family: 'Space Grotesk';
     font-weight: thin;
-    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Light.ttf) format ("ttf");
+    src: url("/assets/fonts/SpaceGrotesk/SpaceGrotesk-Light.ttf") format ("ttf");
 }
 
 @font-face {
     font-family: 'Space Grotesk';
     font-weight: bold;
-    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Bold.ttf) format ("ttf");
+    src: url("/assets/fonts/SpaceGrotesk/SpaceGrotesk-Bold.ttf") format ("ttf");
 }
 
 @font-face {
     font-family: 'Space Grotesk';
     font-weight: medium;
-    src: url(../assets/fonts/SpaceGrotesk/SpaceGrotesk-Medium.ttf) format ("ttf");
+    src: url("/assets/fonts/SpaceGrotesk/SpaceGrotesk-Medium.ttf") format ("ttf");
 }
 
 // Manrope Text
 @font-face {
     font-family: 'Manrope';
     font-weight: normal;
-    src: url(../assets/fonts/manrope/manrope-regular.ttf) format ("ttf");
+    src: url("/assets/fonts/manrope/manrope-regular.ttf") format ("ttf");
 }
 
 @font-face {
     font-family: 'Manrope';
     font-weight: bold;
-    src: url(../assets/fonts/manrope/manrope-bold.ttf) format ("ttf");
+    src: url("/assets/fonts/manrope/manrope-bold.ttf") format ("ttf");
 }
 
 @font-face {
     font-family: 'Manrope';
     font-weight: thin;
-    src: url(../assets/fonts/manrope/manrope-light.ttf) format ("ttf");
+    src: url("/assets/fonts/manrope/manrope-light.ttf") format ("ttf");
 }
 
 @mixin mode-toggle($dark-mode: false) {
