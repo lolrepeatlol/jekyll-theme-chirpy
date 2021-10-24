@@ -47,7 +47,9 @@ social:
     # - https://www.linkedin.com/in/username
 
 google_site_verification: google_meta_tag_verification # change to your verification string
-# --------------------------
+
+# ↑ --------------------------
+
 
 google_analytics:
   id: ''              # fill in your Google Analytics ID
@@ -74,10 +76,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: ''
+img_cdn: 'https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images@0a003683c0c3ca549d12c309f9b3e03ea20981e5'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: '/commons/avatar.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -154,7 +156,7 @@ exclude:
   - LICENSE
   - gulpfile.js
   - node_modules
-  - '*.json'
+  - package.json
 
 jekyll-archives:
   enabled: [categories, tags]

@@ -7,9 +7,9 @@ tags: [typography]
 math: true
 mermaid: true
 image:
-  src: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/devices-mockup.png
-  width: 850
-  height: 585
+  src: /commons/devices-mockup.png
+  width: 800
+  height: 500
 ---
 
 This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
@@ -99,34 +99,34 @@ Click the hook will locate the footnote[^footnote], and here is another footnote
 
 - Default (with caption)
 
-![Desktop View](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/posts/20190808/mockup.png){: width="972" height="589" }
+![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
 _Full screen width and center alignment_
 
 <br>
 
 - Shadow
 
-![Window shadow](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/posts/20190808/window.png){: .shadow width="1548" height="864" style="max-width: 90%" }
+![Window shadow](/posts/20190808/window.png){: .shadow width="1548" height="864" style="max-width: 90%" }
 _shadow effect (visible in light mode)_
 
 <br>
 
 - Left aligned
 
-![Desktop View](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/posts/20190808/mockup.png){: width="972" height="589" style="max-width: 70%" .normal}
+![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" style="max-width: 70%" .normal}
 
 <br>
 
 - Float to left
 
-  ![Desktop View](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/posts/20190808/mockup.png){: width="972" height="589" style="max-width: 200px" .left}
+  ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" style="max-width: 200px" .left}
   "A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space."
 
 <br>
 
 - Float to right
 
-  ![Desktop View](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/posts/20190808/mockup.png){: width="972" height="589" style="max-width: 200px" .right}
+  ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" style="max-width: 200px" .right}
   "A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space. A repetitive and meaningless text is used to fill the space."
 
 <br>
@@ -176,44 +176,23 @@ SHELL=/usr/local/bin/bash
 PYENV_SHELL=bash
 ```
 
-#### Ruby
-
-```ruby
-def sum_eq_n?(arr, n)
-  return true if arr.empty? && n == 0
-  arr.product(arr).reject { |a,b| a == b }.any? { |a,b| a + b == n }
-end
-```
-
 #### Shell
 
-```shell
+```bash
 if [ $? -ne 0 ]; then
     echo "The command was not successful.";
     #do the needful / exit
 fi;
 ```
 
-#### Liquid
+### Specific filename
 
-{% raw %}
-```liquid
-{% if product.title contains 'Pack' %}
-  This product's title contains the word Pack.
-{% endif %}
+```sass
+@import
+  "colors/light-typography",
+  "colors/dark-typography"
 ```
-{% endraw %}
-
-#### Java
-
-```java
-private void writeObject(java.io.ObjectOutputStream s)
-  throws java.io.IOException {
-  // Write out any hidden serialization magic
-  s.defaultWriteObject();
-  for (E e: map.keySet()) s.writeObject(e);
-}
-```
+{: file='_sass/jekyll-theme-chirpy.scss'}
 
 ## Reverse Footnote
 
