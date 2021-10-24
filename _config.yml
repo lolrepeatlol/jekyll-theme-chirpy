@@ -46,17 +46,19 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
+<<<<<<< Updated upstream
 google_site_verification: google_meta_tag_verification # change to your verification string
+<<<<<<< Updated upstream
 
 # ↑ --------------------------
 
+=======
+# --------------------------
+=======
+# ↑ --------------------------
+>>>>>>> Stashed changes
 
-google_analytics:
-  id: ''              # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+>>>>>>> Stashed changes
 
 # Prefer color scheme setting.
 #
