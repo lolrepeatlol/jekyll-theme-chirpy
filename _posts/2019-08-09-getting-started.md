@@ -46,7 +46,11 @@ Finally, copy the required files from the theme's gem (for detailed files, see [
 > $ bundle info --path jekyll-theme-chirpy
 > ```
 
-Or you can [**use the starter template**][use-starter] to create a Jekyll site to save time copying files from the theme's gem. We have prepared everything for you there!
+1. Removes some files or directories from your repository:
+
+    - `.travis.yml`
+    - files under `_posts`
+    - folder `docs`
 
 ### Fork on GitHub
 
@@ -128,9 +132,8 @@ Now publish your Jekyll site by:
 
 1. Push any commit to remote to trigger the GitHub Actions workflow. Once the build is complete and successful, a new remote branch named `gh-pages` will appear to store the built site files.
 
-2. Browse to your repo's landing page on GitHub and select the branch `gh-pages` as the [publishing source](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) through _Settings_ → _Options_ → _GitHub Pages_:
-
-    ![gh-pages-sources](https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/posts/20190809/gh-pages-sources.png){: width="850" height="153" }
+2. Browse to your repository on GitHub. Select the tab _Settings_, then click _Pages_ in the left navigation bar, and then in the section **Source** of _GitHub Pages_, select the `/(root)` directory of branch `gh-pages` as the [publishing source][pages-src]. Remember to click <kbd>Save</kbd> before leaving.
+  ![gh-pages-sources](/posts/20190809/gh-pages-sources.png){: width="850" height="153" }
 
 3. Visit your website at the address indicated by GitHub.
 
@@ -154,7 +157,30 @@ $ docker run -it --rm \
     jekyll build
 ```
 
-Unless you specified the output path, the generated site files will be placed in folder `_site` of the project's root directory. Now you should upload those files to your web server.
+Unless you specified the output path, the generated site files will be placed in folder `_site` of the project's root directory. Now you should upload those files to the target server.
+
+### Upgrading
+
+It depends on how you use the theme:
+
+- If you are using the theme gem (there will be `gem "jekyll-theme-chirpy"` in the `Gemfile`), editing the `Gemfile` and update the version number of the theme gem, for example:
+
+  ```diff
+  - gem "jekyll-theme-chirpy", "~> 3.2", ">= 3.2.1"
+  + gem "jekyll-theme-chirpy", "~> 3.3", ">= 3.3.0"
+  ```
+  {: .nolineno file="Gemfile" }
+
+  And then execute the following command:
+
+  ```console
+  $ bundle update jekyll-theme-chirpy
+  ```
+
+  As the version upgrades, the critical files (for details, see the [Startup Template][starter]) and configuration options will change. Please refer to the [Upgrade Guide](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide) to keep your repo's files in sync with the latest version of the theme.
+
+- If you forked from the source project (there will be `gemspec` in the `Gemfile` of your site), then merge the [latest upstream tags][latest-tag] into your Jekyll site to complete the upgrade.
+The merge is likely to conflict with your local modifications. Please be patient and careful to resolve these conflicts.
 
 [starter]: https://github.com/cotes2020/chirpy-starter
 [use-starter]: https://github.com/cotes2020/chirpy-starter/generate
