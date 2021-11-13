@@ -4,7 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![Hey, that's me!](/assets/img/smallblogsocialimage.png)
+![Picture of giraffe munching on leaves](/assets/img/smallblogsocialimage.png)
+__Hey, that's me!__
 
 Hi! I'm lolrepeatlol. I'm literally just a giraffe on the Internet who's interested in a variety of topics, but my most notable interest is in the Internet and how Big Tech affects it, and that's been the case for quite a while now. 
 
