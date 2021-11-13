@@ -15,9 +15,9 @@ timezone: America/New_York
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: lolrepeatlol's blog                          # the main title
+title: lolrepeatlol_blog                          # the main title
 
-tagline: Thoughts on the Internet, Big Tech, and more.   # it will display as the sub-title
+tagline: Thoughts on the Internet.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   I write my takes on the Internet here.
