@@ -4,13 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
----
-image:
-src: /assets/img/smallblogsocialimage.png
-width: 810
-height: 540
-alt: Hey, that's me!
----
+![Hey, that's me!](/assets/img/smallblogsocialimage.png)
 
 Hi! I'm lolrepeatlol. I'm literally just a giraffe on the Internet who's interested in a variety of topics, but my most notable interest is in the Internet and how Big Tech affects it, and that's been the case for quite a while now. 
 
@@ -21,5 +15,7 @@ Thanks for stopping by!
 ## Find me
 
 Twitter: https://twitter.com/lolrepeatlol
+
 Matrix: @lolrepeatlol:mozilla.org
+
 Email: lolrepeatlol@posteo.de
