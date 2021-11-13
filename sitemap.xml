@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://lol.repeat.lol/posts/test-post/</loc>
+<lastmod>2021-11-13T17:29:17-05:00</lastmod>
+</url>
+<url>
+<loc>https://lol.repeat.lol/categories/</loc>
+<lastmod>2021-11-13T18:11:29-05:00</lastmod>
+</url>
+<url>
+<loc>https://lol.repeat.lol/tags/</loc>
+<lastmod>2021-11-13T18:11:29-05:00</lastmod>
+</url>
+<url>
+<loc>https://lol.repeat.lol/archives/</loc>
+<lastmod>2021-11-13T18:11:29-05:00</lastmod>
+</url>
+<url>
+<loc>https://lol.repeat.lol/about/</loc>
+<lastmod>2021-11-13T18:11:29-05:00</lastmod>
+</url>
+<url>
+<loc>https://lol.repeat.lol/</loc>
+</url>
+<url>
+<loc>https://lol.repeat.lol/tags/wow/</loc>
+</url>
+<url>
+<loc>https://lol.repeat.lol/categories/test/</loc>
+</url>
+</urlset>
